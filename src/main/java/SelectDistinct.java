@@ -5,7 +5,7 @@ import static org.postgresql.jdbc2.EscapedFunctions.USER;
 
 public class SelectDistinct {
 
-    static void selectDistinctStatus(){
+  static void selectDistinctStatus(){
 
 
         Connection conn = null;
@@ -38,12 +38,13 @@ public class SelectDistinct {
 
             while(rs.next()){
                 //Retrieve by column name
-                String stat = rs.getString("status");
+                String stat = rs.getString("count");
+
 
 
                 //Display values
-                System.out.println("Status: " + stat);
 
+                System.out.println(stat);
 
             }
             rs.close();

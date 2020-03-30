@@ -9,19 +9,21 @@ public class DBCONNECT {
 
 
 
-//          CustomersRecords.printCustomersRecords();
+          CustomersRecords.printCustomersRecords();
 
 
-//          SelectAllName.selectNames();
+          SelectAllName.selectNames();
 
 
-//          SelectName.selectNameFromCustomersWhereCustomeridIs1();
+          SelectName.selectNameFromCustomersWhereCustomeridIs1();
 
-//          Update.updateCustomersRecords();
+          Update.updateCustomersRecords();
 
-//          DeleteRow.deleteCustomersWhereCustomeridIs2();
+          DeleteRow.deleteCustomersWhereCustomeridIs2();
 
         SelectDistinct.selectDistinctStatus();
+
+        SelectMaximumAmount.selectMaximumAmount();
 
 
     }//end main
